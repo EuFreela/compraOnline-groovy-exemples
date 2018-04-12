@@ -1,13 +1,14 @@
 package com.comercial
 
-import pessoa.Usuario
+import com.pessoa.Usuario
 
-class OdemDeCompra {
+class OrdemDeCompra {
 
     Date dataDaCompra
-    List<Item> itens
     Usuario comprador
 
+    static hasMany = [itens:Item]
+    
     static constraints = {
     }
 }

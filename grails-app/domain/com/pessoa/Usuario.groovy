@@ -3,9 +3,9 @@ package com.pessoa
 class Usuario {
 
     String nome
-    Stirng email
+    String email
     String senha
-    Strig endereco
+    String endereco
     long cpf
 
     static constraints = {
